@@ -25,4 +25,3 @@ Uncomment the ports flag in `docker-compose.yml` to be able for access the servi
 ```shell
 docker compose -p training-babel up -d
 ```
-After type and run the command go to `localhost://${API_PORT}`
