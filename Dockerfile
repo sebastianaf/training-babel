@@ -1,8 +1,8 @@
 FROM node:18
-COPY ["package.json","package-lock.json","/usr/nodemailer/app/"]
-WORKDIR /usr/nodemailer/app
+COPY ["package.json","package-lock.json","/usr/babel/app/"]
+WORKDIR /usr/babel/app
 RUN npm install
-COPY [".","/usr/nodemailer/app/"]
+COPY [".","/usr/babel/app/"]
 RUN npm run build
 //EXPOSE ${API_PORT}
 CMD ["dist/index.js"]
