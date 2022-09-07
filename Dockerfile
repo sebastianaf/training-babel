@@ -4,6 +4,6 @@ WORKDIR /usr/nodemailer/app
 RUN npm install
 COPY [".","/usr/nodemailer/app/"]
 RUN npm run build
-EXPOSE ${API_PORT}
+//EXPOSE ${API_PORT}
 CMD ["dist/index.js"]
 ENTRYPOINT ["node"]
