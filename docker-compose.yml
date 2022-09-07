@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  training-babel-app:
+    container_name: training-babel-app
+    image: training-babel-app
+    restart: always
+    environment:
+      SOME_VAR: ${SOME_VAR}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        API_PORT: ${API_PORT}
+#    ports:
+#      - ${API_PORT}:${API_PORT}
+    networks:
+      - training-babel
+
+networks:
+  training-babel:
+    name: training-babel
