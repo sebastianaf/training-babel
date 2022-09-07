@@ -1,4 +1,4 @@
-# training-nodemailer
+# training-babel
 Training NodeJS project with Babel running on Docker
 
 ## Requirements
