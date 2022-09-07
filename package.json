@@ -1,5 +1,5 @@
 {
-  "name": "training-nodemailer",
+  "name": "training-babel",
   "version": "1.0.0",
   "description": "Training code to use nodemailer using REST API with Node running on Docker",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sebastianaf/training-nodemailer.git"
+    "url": "git+https://github.com/sebastianaf/training-babel.git"
   },
   "keywords": [
     "nodemailer"
@@ -17,9 +17,9 @@
   "author": "sebastianaf",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/sebastianaf/training-nodemailer/issues"
+    "url": "https://github.com/sebastianaf/training-babel/issues"
   },
-  "homepage": "https://github.com/sebastianaf/training-nodemailer#readme",
+  "homepage": "https://github.com/sebastianaf/training-babel#readme",
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.19.0",
